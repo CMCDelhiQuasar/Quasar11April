@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="default" extends="struts-default">
+		<action name="abc" class="com.khurshid.action.MyAction">
+			<result name="success">/success.jsp</result>
+			<result name="failure">/failure.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+
+
+
+
+		<action name="registration"
+			class="com.cmcdelhi.quasar.action.StudentRegistrationDetailAction"
+			method="startRegistrationSession">
+			<result name="gotoinstallmentconfigpage">/installment.jsp</result>
+			<result name="gotoregistrationpaymentpage">/paymentwrapper.jsp</result>
+			<result name="input">/registration.jsp</result>
+		</action>
+
+
+		<action name="cancelregistration"
+			class="com.cmcdelhi.quasar.action.StudentRegisteringCancelAction"
+			method="cancelRegistrationSession">
+			<result name="success">/registrationcancellation.jsp</result>
+			<result name="failure">/index.jsp</result>
+		</action>
+
+		<action name="installmentconfiguration"
+			class="com.cmcdelhi.quasar.action.InstallmentConfigurationAction">
+			<result name="success">/paymentwrapper.jsp</result>
+			<result name="input">/installment.jsp</result>
+		</action>
+
+		<action name="payment" class="com.cmcdelhi.quasar.action.PaymentAction">
+			<result name="success">/onlinemode.jsp</result>
+			<result name="input">/paymentwrapper.jsp</result>
+		</action>
+
+		<action name="done" class="com.cmcdelhi.quasar.action.Mode">
+			<result name="success">/registrationsuccess.jsp</result>
+			<result name="input">/Registration_Failure.jsp</result>
+		</action>
+		<action name="registrationdetails" class="com.cmcdelhi.quasar.action.PaymentAction">
+			<result name="success">/registrationsuccess.jsp</result>
+			<result name="input">/Registration_Failure.jsp</result>
+		</action>
+		<action name="cheque" class="com.cmcdelhi.quasar.action.ChequeAction">
+			<result name="success">/registrationsuccess.jsp</result>
+			<result name="input">/chequemode.jsp</result>
+		</action>
+		<action name="ddmode" class="com.cmcdelhi.quasar.action.DDModeAction">
+			<result name="success">/cardmode.jsp</result>
+			<result name="input">/ddmode.jsp</result>
+		</action>
+		<action name="cardmode" class="com.cmcdelhi.quasar.action.CardModeAction">
+			<result name="success">/registrationsuccess.jsp</result>
+			<result name="input">/cardmode.jsp</result>
+		</action>
+		<action name="onlinemode" class="com.cmcdelhi.quasar.action.OnlineModeAction">
+			<result name="success">/ddmode.jsp</result>
+			<result name="input">/onlinemode.jsp</result>
+		</action>
+		<action name="cashmode" class="com.cmcdelhi.quasar.action.CashModeAction">
+			<result name="success">/registrationsuccess.jsp</result>
+			<result name="input">/cashmode.jsp</result>
+		</action>
+
+
+	</package>
+
+
+</struts>

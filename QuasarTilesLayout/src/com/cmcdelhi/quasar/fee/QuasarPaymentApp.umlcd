@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_sGagoKrCEeOf1O9AMTn6UA">
+  <modelElement href="QuasarPaymentApp.uml#_sXzLkqrCEeOf1O9AMTn6UA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqDZMKrCEeOf1O9AMTn6UA" sourceAnchor="269.0,89.0" targetAnchor="0.0,68.0" target="_sqGcgKrCEeOf1O9AMTn6UA" source="_sqBkAKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shU7AarCEeOf1O9AMTn6UA"/>
+    <nameVisual xmi:id="_sqEAQarCEeOf1O9AMTn6UA" text="">
+      <visualProperties xmi:id="_szDkMKrCEeOf1O9AMTn6UA" position="9.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sqEAQqrCEeOf1O9AMTn6UA" name="paymentDetails" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_shCnIarCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szC9IqrCEeOf1O9AMTn6UA" position="28.0,-69.0"/>
+      <visibility xmi:id="_sqFOYarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqFOYKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqEAQ6rCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shU7AqrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szDkMarCEeOf1O9AMTn6UA" position="-33.0,2.0"/>
+      <visibility xmi:id="_sqFOY6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqFOYqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sqEAQKrCEeOf1O9AMTn6UA" sourceAnchor="98.0,0.0" targetAnchor="252.0,136.0" superClass="_sqGcgKrCEeOf1O9AMTn6UA" subClass="_sp95oKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sd0UAKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP_G0KrEEeOf1O9AMTn6UA" sourceY="-30" targetX="-358" targetY="109"/>
+    <bendpoints xmi:id="_KP_G0arEEeOf1O9AMTn6UA" sourceX="358" sourceY="-30" targetY="109"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqFOZKrCEeOf1O9AMTn6UA" sourceAnchor="564.0,121.0" targetAnchor="0.0,2.0" target="_sqZXcKrCEeOf1O9AMTn6UA" source="_sqGcgKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shQpkarCEeOf1O9AMTn6UA"/>
+    <nameVisual xmi:id="_sqFOZarCEeOf1O9AMTn6UA" text="">
+      <visualProperties xmi:id="_szDkM6rCEeOf1O9AMTn6UA" position="-5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sqFOZqrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="payment" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgtP8KrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szDkMqrCEeOf1O9AMTn6UA" position="49.0,-49.0"/>
+      <visibility xmi:id="_sqFOZ6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqFOaKrCEeOf1O9AMTn6UA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqFOaarCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shQpkKrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szDkNKrCEeOf1O9AMTn6UA" position="-34.0,-49.0"/>
+      <visibility xmi:id="_sqFOaqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqFOa6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqF1cKrCEeOf1O9AMTn6UA" sourceAnchor="564.0,68.0" targetAnchor="564.0,128.0" target="_sqpPEKrCEeOf1O9AMTn6UA" source="_sqGcgKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shO0ZarCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP-fwKrEEeOf1O9AMTn6UA" sourceX="2383" targetX="2203" targetY="-598"/>
+    <bendpoints xmi:id="_KP-fwarEEeOf1O9AMTn6UA" sourceX="2383" sourceY="598" targetX="2203"/>
+    <nameVisual xmi:id="_sqF1carCEeOf1O9AMTn6UA" text="">
+      <visualProperties xmi:id="_szELQarCEeOf1O9AMTn6UA" position="-57.0,269.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sqF1cqrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="paymentsList" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_sg7SYqrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szELQKrCEeOf1O9AMTn6UA" position="1.0,-108.0"/>
+      <visibility xmi:id="_sqF1c6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqF1dKrCEeOf1O9AMTn6UA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqF1darCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shO0ZKrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szELQqrCEeOf1O9AMTn6UA" position="1.0,-109.0"/>
+      <visibility xmi:id="_sqF1dqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqF1d6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqF1eKrCEeOf1O9AMTn6UA" sourceAnchor="0.0,40.0" targetAnchor="282.0,136.0" target="_sqGcgKrCEeOf1O9AMTn6UA" source="_sqZXcKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shRQoarCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP_G0qrEEeOf1O9AMTn6UA" sourceX="-501" targetY="23"/>
+    <nameVisual xmi:id="_sqF1earCEeOf1O9AMTn6UA" text="">
+      <visualProperties xmi:id="_szEyUarCEeOf1O9AMTn6UA" position="31.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sqF1eqrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="paymentMode" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_shG4kqrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szEyUKrCEeOf1O9AMTn6UA" position="-136.0,40.0"/>
+      <visibility xmi:id="_sqF1e6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqF1fKrCEeOf1O9AMTn6UA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqF1farCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shRQoKrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szEyUqrCEeOf1O9AMTn6UA" position="121.0,24.0"/>
+      <visibility xmi:id="_sqF1fqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqF1f6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqF1gKrCEeOf1O9AMTn6UA" sourceAnchor="0.0,158.0" targetAnchor="32.0,136.0" target="_sqGcgKrCEeOf1O9AMTn6UA" source="_sqpPEKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shR3sKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KQAU8arEEeOf1O9AMTn6UA" sourceX="-148" targetY="560"/>
+    <nameVisual xmi:id="_sqF1garCEeOf1O9AMTn6UA" text="">
+      <visualProperties xmi:id="_szGngKrCEeOf1O9AMTn6UA" position="2.0,-328.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sqF1gqrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="student" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_shHfpKrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szGAc6rCEeOf1O9AMTn6UA" position="-107.0,-69.0"/>
+      <visibility xmi:id="_sqF1g6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqF1hKrCEeOf1O9AMTn6UA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqF1harCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shRQoqrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szGngarCEeOf1O9AMTn6UA" position="7.0,55.0"/>
+      <visibility xmi:id="_sqF1hqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqF1h6rCEeOf1O9AMTn6UA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sqHqoKrCEeOf1O9AMTn6UA" sourceAnchor="191.0,0.0" targetAnchor="252.0,136.0" superClass="_sqGcgKrCEeOf1O9AMTn6UA" subClass="_sqIRsKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sdinMarCEeOf1O9AMTn6UA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sqI4wKrCEeOf1O9AMTn6UA" sourceAnchor="78.0,0.0" targetAnchor="252.0,136.0" superClass="_sqGcgKrCEeOf1O9AMTn6UA" subClass="_sqI4warCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sdinMKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP-fwqrEEeOf1O9AMTn6UA" sourceY="-37" targetX="285" targetY="109"/>
+    <bendpoints xmi:id="_KP-fw6rEEeOf1O9AMTn6UA" sourceX="-285" sourceY="-37" targetY="109"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sqKG4arCEeOf1O9AMTn6UA" targetItem="_sqLVAKrCEeOf1O9AMTn6UA" sourceItem="_sqKG4KrCEeOf1O9AMTn6UA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sqKG4qrCEeOf1O9AMTn6UA" sourceAnchor="235.0,0.0" targetAnchor="137.0,79.0" superClass="_sqZXcKrCEeOf1O9AMTn6UA" subClass="_sqLVAKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sc68IKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP_t4KrEEeOf1O9AMTn6UA" sourceY="-45" targetX="718" targetY="29"/>
+    <bendpoints xmi:id="_KP_t4arEEeOf1O9AMTn6UA" sourceX="-718" sourceY="-45" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sqNxQKrCEeOf1O9AMTn6UA" sourceAnchor="125.0,0.0" targetAnchor="137.0,79.0" superClass="_sqZXcKrCEeOf1O9AMTn6UA" subClass="_sqO_YKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sdPsQKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP_G1arEEeOf1O9AMTn6UA" sourceY="-44" targetX="309" targetY="29"/>
+    <bendpoints xmi:id="_KP_G1qrEEeOf1O9AMTn6UA" sourceX="-309" sourceY="-44" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sqOYUKrCEeOf1O9AMTn6UA" targetItem="_sqO_YKrCEeOf1O9AMTn6UA" sourceItem="_sqNxQarCEeOf1O9AMTn6UA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sqQ0kKrCEeOf1O9AMTn6UA" sourceAnchor="188.0,0.0" targetAnchor="137.0,79.0" superClass="_sqZXcKrCEeOf1O9AMTn6UA" subClass="_sqSCsKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sce3QKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP_G06rEEeOf1O9AMTn6UA" sourceY="-44" targetX="-48" targetY="29"/>
+    <bendpoints xmi:id="_KP_G1KrEEeOf1O9AMTn6UA" sourceX="48" sourceY="-44" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sqQ0kqrCEeOf1O9AMTn6UA" targetItem="_sqSCsKrCEeOf1O9AMTn6UA" sourceItem="_sqQ0karCEeOf1O9AMTn6UA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sqT34KrCEeOf1O9AMTn6UA" sourceAnchor="141.0,0.0" targetAnchor="137.0,79.0" superClass="_sqZXcKrCEeOf1O9AMTn6UA" subClass="_sqUe8KrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sdT9sKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP_t4qrEEeOf1O9AMTn6UA" sourceY="-39" targetX="1128" targetY="29"/>
+    <bendpoints xmi:id="_KP_t46rEEeOf1O9AMTn6UA" sourceX="-1128" sourceY="-39" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sqT34qrCEeOf1O9AMTn6UA" targetItem="_sqUe8KrCEeOf1O9AMTn6UA" sourceItem="_sqT34arCEeOf1O9AMTn6UA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sqalkKrCEeOf1O9AMTn6UA" sourceAnchor="176.0,0.0" targetAnchor="137.0,79.0" superClass="_sqZXcKrCEeOf1O9AMTn6UA" subClass="_sqbzsKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sdKzwKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP_t5KrEEeOf1O9AMTn6UA" sourceY="-29" targetX="1486" targetY="29"/>
+    <bendpoints xmi:id="_KP_t5arEEeOf1O9AMTn6UA" sourceX="-1486" sourceY="-29" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_sqbMoarCEeOf1O9AMTn6UA" targetItem="_sqbzsKrCEeOf1O9AMTn6UA" sourceItem="_sqbMoKrCEeOf1O9AMTn6UA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqeP8KrCEeOf1O9AMTn6UA" sourceAnchor="236.0,0.0" targetAnchor="0.0,70.0" target="_sqZXcKrCEeOf1O9AMTn6UA" source="_sqgFIKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shf6IarCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_szBvA6rCEeOf1O9AMTn6UA" sourceY="-64" targetX="-319"/>
+    <stereotypes xmi:id="_sqe3AarCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_shi9cKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_sqeP8arCEeOf1O9AMTn6UA" text="">
+      <visualProperties xmi:id="_szFZYarCEeOf1O9AMTn6UA" position="-52.82136914294438,44.49804281671368"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sqeP8qrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shf6IqrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szFZYKrCEeOf1O9AMTn6UA" position="1.6555621326045866,-80.47678025590608"/>
+      <visibility xmi:id="_sqfeEarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqfeEKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqe3AKrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="paymentMode" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_shBZBqrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szFZYqrCEeOf1O9AMTn6UA" position="-376.4590619753805,57.79964171845859"/>
+      <visibility xmi:id="_sqfeE6rCEeOf1O9AMTn6UA" label="~"/>
+      <cardinality xmi:id="_sqfeEqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqihYKrCEeOf1O9AMTn6UA" sourceAnchor="269.0,0.0" targetAnchor="0.0,99.0" target="_sqkWmarCEeOf1O9AMTn6UA" source="_sqkWmarCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shYlYKrCEeOf1O9AMTn6UA"/>
+    <bendpoints xmi:id="_KP_t5qrEEeOf1O9AMTn6UA" sourceY="-135" targetX="269" targetY="-234"/>
+    <bendpoints xmi:id="_KP_t56rEEeOf1O9AMTn6UA" sourceX="-559" sourceY="-135" targetX="-290" targetY="-234"/>
+    <bendpoints xmi:id="_KQAU8KrEEeOf1O9AMTn6UA" sourceX="-559" sourceY="99" targetX="-290"/>
+    <stereotypes xmi:id="_sqjIc6rCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_shcPwKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_sqjIcKrCEeOf1O9AMTn6UA" text="">
+      <visualProperties xmi:id="_szGAcarCEeOf1O9AMTn6UA" position="418.0,-14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sqjIcarCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shYlYarCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szGAcKrCEeOf1O9AMTn6UA" position="-22.0,-72.0"/>
+      <visibility xmi:id="_sqjvgarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqjvgKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqjIcqrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="quasarConnectionManager" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_sg5dMKrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szGAcqrCEeOf1O9AMTn6UA" position="-242.0,5.000000000000057"/>
+      <visibility xmi:id="_sqjvg6rCEeOf1O9AMTn6UA" label="-"/>
+      <cardinality xmi:id="_sqjvgqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqkWkKrCEeOf1O9AMTn6UA" source="_sqkWmarCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shcPwarCEeOf1O9AMTn6UA"/>
+    <stereotypes xmi:id="_sqkWkarCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_shf6IKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_sqkWkqrCEeOf1O9AMTn6UA" text=""/>
+    <sourceRole xmi:id="_sqkWk6rCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shcPwqrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqkWlKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqkWlarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqkWlqrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="session" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_sg6EQ6rCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqkWl6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqkWmKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sqmy0KrCEeOf1O9AMTn6UA" sourceAnchor="0.0,15.0" targetAnchor="564.0,177.0" target="_sqpPEKrCEeOf1O9AMTn6UA" source="_sp3L8KrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shUT8qrCEeOf1O9AMTn6UA"/>
+    <nameVisual xmi:id="_sqnZ4KrCEeOf1O9AMTn6UA" text="">
+      <visualProperties xmi:id="_szC9IKrCEeOf1O9AMTn6UA" position="-5.5,-30.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sqnZ4arCEeOf1O9AMTn6UA" aggregationKind="NONE" name="feeDetails" navigable="true">
+      <modelElement href="QuasarPaymentApp.uml#_sg7SYKrCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szCWFKrCEeOf1O9AMTn6UA" position="-125.66666666666674,2.0"/>
+      <visibility xmi:id="_sqooAarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqooAKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sqnZ4qrCEeOf1O9AMTn6UA" aggregationKind="NONE" name="">
+      <modelElement href="QuasarPaymentApp.uml#_shUT86rCEeOf1O9AMTn6UA"/>
+      <visualProperties xmi:id="_szC9IarCEeOf1O9AMTn6UA" position="15.090909090909008,2.0"/>
+      <visibility xmi:id="_sqooBKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqooA6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sqKG4KrCEeOf1O9AMTn6UA" sourceConnectionVisual="_sqKG4arCEeOf1O9AMTn6UA" text="&#xA;@author Gufran Khurshid&#xA;@version 1.0&#xA;@Date 4 April 2013" item="_sqLVAKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shSewarCEeOf1O9AMTn6UA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sqNxQarCEeOf1O9AMTn6UA" sourceConnectionVisual="_sqOYUKrCEeOf1O9AMTn6UA" text="&#xA;@author Gufran Khurshid&#xA;@version 1.0&#xA;@Date 4 April 2013" item="_sqO_YKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shSexKrCEeOf1O9AMTn6UA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sqQ0karCEeOf1O9AMTn6UA" sourceConnectionVisual="_sqQ0kqrCEeOf1O9AMTn6UA" text="&#xD;&#xA;@author Gufran Khurshid&#xD;&#xA;@version 1.0&#xD;&#xA;@Date 4 April 2013" item="_sqSCsKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shSewKrCEeOf1O9AMTn6UA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sqT34arCEeOf1O9AMTn6UA" sourceConnectionVisual="_sqT34qrCEeOf1O9AMTn6UA" text="&#xA;@author Gufran Khurshid&#xA;@version 1.0&#xA;@Date 4 April 2013" item="_sqUe8KrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shTF16rCEeOf1O9AMTn6UA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_sqbMoKrCEeOf1O9AMTn6UA" sourceConnectionVisual="_sqbMoarCEeOf1O9AMTn6UA" text="&#xA;@author Gufran Khurshid&#xA;@version 1.0&#xA;@Date 4 December 2013&#xA;@since 4 April 2013" item="_sqbzsKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_shSew6rCEeOf1O9AMTn6UA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_sp_HwKrCEeOf1O9AMTn6UA" name="InstallmentType">
+    <modelElement href="QuasarPaymentApp.uml#_saDOUKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sp_HwarCEeOf1O9AMTn6UA" position="-1474.0,47.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sp_HwqrCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sp_Hw6rCEeOf1O9AMTn6UA" name="value">
+      <modelElement href="QuasarPaymentApp.uml#_sg1y0KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp_HxKrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg2Z4KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp_HxarCEeOf1O9AMTn6UA" label="~"/>
+      <cardinality xmi:id="_sp_HxqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sp_Hx6rCEeOf1O9AMTn6UA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sp_HyKrCEeOf1O9AMTn6UA" name="InstallmentType">
+      <modelElement href="QuasarPaymentApp.uml#_saIt4KrCEeOf1O9AMTn6UA"/>
+      <keywords xmi:id="_sp_HyarCEeOf1O9AMTn6UA" keyword="create"/>
+      <visibility xmi:id="_sp_HyqrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_sp_Hy6rCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_saIt5KrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sp_HzKrCEeOf1O9AMTn6UA" name="InstallmentType">
+          <modelElement href="QuasarPaymentApp.uml#_saDOUKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sp_HzarCEeOf1O9AMTn6UA" name="value">
+        <modelElement href="QuasarPaymentApp.uml#_saIt4arCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sp_HzqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_sp_Hz6rCEeOf1O9AMTn6UA" name="FIRST">
+      <modelElement href="QuasarPaymentApp.uml#_saDOUarCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H0KrCEeOf1O9AMTn6UA" name="SECOND">
+      <modelElement href="QuasarPaymentApp.uml#_saDOU6rCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H0arCEeOf1O9AMTn6UA" name="THIRD">
+      <modelElement href="QuasarPaymentApp.uml#_saDOVarCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H0qrCEeOf1O9AMTn6UA" name="FOURTH">
+      <modelElement href="QuasarPaymentApp.uml#_saDOV6rCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H06rCEeOf1O9AMTn6UA" name="FIFTH">
+      <modelElement href="QuasarPaymentApp.uml#_saD1YKrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H1KrCEeOf1O9AMTn6UA" name="SIXTH">
+      <modelElement href="QuasarPaymentApp.uml#_saD1YqrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H1arCEeOf1O9AMTn6UA" name="SEVENTH">
+      <modelElement href="QuasarPaymentApp.uml#_saD1ZKrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H1qrCEeOf1O9AMTn6UA" name="EIGHT">
+      <modelElement href="QuasarPaymentApp.uml#_saD1ZqrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H16rCEeOf1O9AMTn6UA" name="NINTH">
+      <modelElement href="QuasarPaymentApp.uml#_saD1aKrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp_H2KrCEeOf1O9AMTn6UA" name="TENTH">
+      <modelElement href="QuasarPaymentApp.uml#_saD1aqrCEeOf1O9AMTn6UA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqxK4KrCEeOf1O9AMTn6UA" name="IOException">
+    <modelElement href="QuasarPaymentApp.uml#_sdp78arCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqxK4arCEeOf1O9AMTn6UA" position="-2224.0,357.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqxK4qrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_sds_QKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqxK46rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqJf0KrCEeOf1O9AMTn6UA" name="NewClass1">
+    <modelElement href="QuasarPaymentApp.uml#_saMYQKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqJf0arCEeOf1O9AMTn6UA" position="-1723.0,497.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_sqJf0qrCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqgFIKrCEeOf1O9AMTn6UA" name="WrapperEntity" associationsOut="_sqeP8KrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_saodIKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqgFIarCEeOf1O9AMTn6UA" position="-659.0,-1135.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqgFIqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_saodIarCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqgFI6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqgFJKrCEeOf1O9AMTn6UA" name="id">
+      <modelElement href="QuasarPaymentApp.uml#_shAx8arCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFJarCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_shAx8qrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqgFJqrCEeOf1O9AMTn6UA" name="Annotations">
+        <modelElement href="QuasarPaymentApp.uml#_shBZAKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFJ6rCEeOf1O9AMTn6UA" label="~"/>
+      <cardinality xmi:id="_sqgFKKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqgFKarCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqgFKqrCEeOf1O9AMTn6UA" name="name">
+      <modelElement href="QuasarPaymentApp.uml#_shBZBKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFK6rCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_shBZBarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFLKrCEeOf1O9AMTn6UA" label="~"/>
+      <cardinality xmi:id="_sqgFLarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqgFLqrCEeOf1O9AMTn6UA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqgFL6rCEeOf1O9AMTn6UA" name="paymentMode">
+      <modelElement href="QuasarPaymentApp.uml#_shBZBqrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFMKrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_shCAEKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqgFMarCEeOf1O9AMTn6UA" name="Annotations">
+        <modelElement href="QuasarPaymentApp.uml#_shCAEarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqfeFKrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_shCAEKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqfeFarCEeOf1O9AMTn6UA" name="Annotations">
+        <modelElement href="QuasarPaymentApp.uml#_shCAEarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFMqrCEeOf1O9AMTn6UA" label="~"/>
+      <cardinality xmi:id="_sqgFM6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqgFNKrCEeOf1O9AMTn6UA" name="PaymentMode">
+        <modelElement href="QuasarPaymentApp.uml#_saALAKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sqgFNarCEeOf1O9AMTn6UA" name="getId">
+      <modelElement href="QuasarPaymentApp.uml#_sapEMKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFNqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sapEMqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFN6rCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqgFOKrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sapEMarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqgFOarCEeOf1O9AMTn6UA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqgFOqrCEeOf1O9AMTn6UA" name="setId">
+      <modelElement href="QuasarPaymentApp.uml#_sapEM6rCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFO6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sapENarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFPKrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqgFParCEeOf1O9AMTn6UA" name="id">
+        <modelElement href="QuasarPaymentApp.uml#_sapENKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqgFPqrCEeOf1O9AMTn6UA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sqgFP6rCEeOf1O9AMTn6UA" name="getName">
+      <modelElement href="QuasarPaymentApp.uml#_sapENqrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFQKrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_saprQarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFQarCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqgFQqrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_saprQKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqgFQ6rCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqgFRKrCEeOf1O9AMTn6UA" name="setName">
+      <modelElement href="QuasarPaymentApp.uml#_saprQqrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFRarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_saprRKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFRqrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqgFR6rCEeOf1O9AMTn6UA" name="name">
+        <modelElement href="QuasarPaymentApp.uml#_saprQ6rCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqgFSKrCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sqgFSarCEeOf1O9AMTn6UA" name="getPaymentMode">
+      <modelElement href="QuasarPaymentApp.uml#_saprRarCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFSqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_saprRqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFS6rCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqgFTKrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sfdSwarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqgFTarCEeOf1O9AMTn6UA" name="PaymentMode">
+          <modelElement href="QuasarPaymentApp.uml#_saALAKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqgFTqrCEeOf1O9AMTn6UA" name="setPaymentMode">
+      <modelElement href="QuasarPaymentApp.uml#_sfdSwqrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqgFT6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sfdSxKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqgFUKrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqgFUarCEeOf1O9AMTn6UA" name="paymentMode">
+        <modelElement href="QuasarPaymentApp.uml#_sfdSw6rCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqgFUqrCEeOf1O9AMTn6UA" name="PaymentMode">
+          <modelElement href="QuasarPaymentApp.uml#_saALAKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqBkAKrCEeOf1O9AMTn6UA" name="PaymentDetails" associationsOut="_sqDZMKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_saYlgKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqBkAarCEeOf1O9AMTn6UA" position="-2648.0,-1273.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_sqBkAqrCEeOf1O9AMTn6UA" name="PersistentPart">
+      <modelElement href="QuasarPaymentApp.uml#_sacP4KrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_sqBkA6rCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sacP4arCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqBkBKrCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqBkBarCEeOf1O9AMTn6UA" name="proposedDate">
+      <modelElement href="QuasarPaymentApp.uml#_sg2Z4arCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqBkBqrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg3A8KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqBkB6rCEeOf1O9AMTn6UA" name="Annotations">
+        <modelElement href="QuasarPaymentApp.uml#_sg3oAarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqBkCKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqBkCarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqBkCqrCEeOf1O9AMTn6UA" name="Date">
+        <modelElement href="QuasarPaymentApp.uml#_scKHIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqBkC6rCEeOf1O9AMTn6UA" name="paymentDate">
+      <modelElement href="QuasarPaymentApp.uml#_sg3oBKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqBkDKrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg3oBarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqBkDarCEeOf1O9AMTn6UA" name="Annotations">
+        <modelElement href="QuasarPaymentApp.uml#_sg4PFKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqBkDqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqBkD6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqBkEKrCEeOf1O9AMTn6UA" name="Date">
+        <modelElement href="QuasarPaymentApp.uml#_scKHIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqBkEarCEeOf1O9AMTn6UA" name="proposedAmount">
+      <modelElement href="QuasarPaymentApp.uml#_sg4PF6rCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqBkEqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg42IKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqBkE6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqBkFKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqBkFarCEeOf1O9AMTn6UA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqBkFqrCEeOf1O9AMTn6UA" name="depositedAmount">
+      <modelElement href="QuasarPaymentApp.uml#_sg42IarCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqBkF6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg42IqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqBkGKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqBkGarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqBkGqrCEeOf1O9AMTn6UA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqBkG6rCEeOf1O9AMTn6UA" name="timeStamp">
+      <modelElement href="QuasarPaymentApp.uml#_sg42I6rCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqBkHKrCEeOf1O9AMTn6UA" name="Temporal">
+        <modelElement href="QuasarPaymentApp.uml#_sg42JKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqBkHarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqBkHqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqBkH6rCEeOf1O9AMTn6UA" name="Date">
+        <modelElement href="QuasarPaymentApp.uml#_scKHIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqGcgKrCEeOf1O9AMTn6UA" name="Payment" associationsIn="_sqDZMKrCEeOf1O9AMTn6UA _sqF1eKrCEeOf1O9AMTn6UA _sqF1gKrCEeOf1O9AMTn6UA" associationsOut="_sqFOZKrCEeOf1O9AMTn6UA _sqF1cKrCEeOf1O9AMTn6UA" subclassedBy="_sqEAQKrCEeOf1O9AMTn6UA _sqHqoKrCEeOf1O9AMTn6UA _sqI4wKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_saq5YKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqGcgarCEeOf1O9AMTn6UA" position="-2151.0,-1252.0" size="564.0,136.0"/>
+    <stereotypes xmi:id="_sqGcgqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sargcKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqGcg6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqGchKrCEeOf1O9AMTn6UA" name="paymentID">
+      <modelElement href="QuasarPaymentApp.uml#_shCAE6rCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqGcharCEeOf1O9AMTn6UA" name="PrimaryKey">
+        <modelElement href="QuasarPaymentApp.uml#_shCAFKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqGchqrCEeOf1O9AMTn6UA" name="GeneratedValueMapping">
+        <modelElement href="QuasarPaymentApp.uml#_shCnIKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqGch6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqGciKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqGciarCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqGciqrCEeOf1O9AMTn6UA" defaultValue="null" name="paymentDetails">
+      <modelElement href="QuasarPaymentApp.uml#_shCnIarCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqGci6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqGcjKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqGcjarCEeOf1O9AMTn6UA" name="PaymentDetails">
+        <modelElement href="QuasarPaymentApp.uml#_saYlgKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqGcjqrCEeOf1O9AMTn6UA" defaultValue="PaymentStatus.UNPAID" name="paymentStatus">
+      <modelElement href="QuasarPaymentApp.uml#_shDOMKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqGcj6rCEeOf1O9AMTn6UA" name="EnumerationStyleMapping">
+        <modelElement href="QuasarPaymentApp.uml#_shG4kKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqGckKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqGckarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqGckqrCEeOf1O9AMTn6UA" name="PaymentStatus">
+        <modelElement href="QuasarPaymentApp.uml#_saONcKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqGck6rCEeOf1O9AMTn6UA" name="paymentMode">
+      <modelElement href="QuasarPaymentApp.uml#_shG4kqrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqGclKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqGclarCEeOf1O9AMTn6UA" label="0..1" max="1"/>
+      <type xmi:id="_sqGclqrCEeOf1O9AMTn6UA" name="PaymentMode">
+        <modelElement href="QuasarPaymentApp.uml#_saALAKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqGcl6rCEeOf1O9AMTn6UA" defaultValue="&quot;No comments&quot;" name="paymentComment">
+      <modelElement href="QuasarPaymentApp.uml#_shHfoarCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqGcmKrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_shHfo6rCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqGcmarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqGcmqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqGcm6rCEeOf1O9AMTn6UA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqGcnKrCEeOf1O9AMTn6UA" name="student">
+      <modelElement href="QuasarPaymentApp.uml#_shHfpKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqGcnarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqGcnqrCEeOf1O9AMTn6UA" label="0..1" max="1"/>
+      <type xmi:id="_sqGcn6rCEeOf1O9AMTn6UA" name="Student">
+        <modelElement href="QuasarPaymentApp.uml#_sahIYKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqIRsKrCEeOf1O9AMTn6UA" name="InstallmentPayment" generalizations="_sqHqoKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_saCAMarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqIRsarCEeOf1O9AMTn6UA" position="-2090.0,-977.0" size="366.0,151.0"/>
+    <stereotypes xmi:id="_sqIRsqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_saCnQKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqIRs6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqIRtKrCEeOf1O9AMTn6UA" name="installmentType">
+      <modelElement href="QuasarPaymentApp.uml#_sgtP8qrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqIRtarCEeOf1O9AMTn6UA" name="EnumerationStyleMapping">
+        <modelElement href="QuasarPaymentApp.uml#_sgxhYKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqIRtqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqIRt6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqIRuKrCEeOf1O9AMTn6UA" name="InstallmentType">
+        <modelElement href="QuasarPaymentApp.uml#_saDOUKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqI4warCEeOf1O9AMTn6UA" name="FullFeePayment" generalizations="_sqI4wKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_saBZIKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqI4wqrCEeOf1O9AMTn6UA" position="-1692.0,-970.0" size="156.0,142.0"/>
+    <stereotypes xmi:id="_sqI4w6rCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_saCAMKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqI4xKrCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sp95oKrCEeOf1O9AMTn6UA" name="RegistrationPayment" generalizations="_sqEAQKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_saO0iarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sp95oarCEeOf1O9AMTn6UA" position="-2355.0,-977.0" size="196.0,152.0"/>
+    <stereotypes xmi:id="_sp95oqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_saPbkKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sp95o6rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqZXcKrCEeOf1O9AMTn6UA" name="PaymentMode" associationsIn="_sqFOZKrCEeOf1O9AMTn6UA _sqeP8KrCEeOf1O9AMTn6UA" associationsOut="_sqF1eKrCEeOf1O9AMTn6UA" subclassedBy="_sqKG4qrCEeOf1O9AMTn6UA _sqNxQKrCEeOf1O9AMTn6UA _sqQ0kKrCEeOf1O9AMTn6UA _sqT34KrCEeOf1O9AMTn6UA _sqalkKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_saALAKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqZXcarCEeOf1O9AMTn6UA" position="-1368.0,-1133.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_sqZXcqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_saAyEKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqZXc6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqZXdKrCEeOf1O9AMTn6UA" name="paymentModeID">
+      <modelElement href="QuasarPaymentApp.uml#_sgsB1KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqZXdarCEeOf1O9AMTn6UA" name="PrimaryKey">
+        <modelElement href="QuasarPaymentApp.uml#_sgso4KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqZXdqrCEeOf1O9AMTn6UA" name="GeneratedValueMapping">
+        <modelElement href="QuasarPaymentApp.uml#_sgso4arCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqZXd6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqZXeKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqZXearCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqZXeqrCEeOf1O9AMTn6UA" name="payment">
+      <modelElement href="QuasarPaymentApp.uml#_sgtP8KrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqZXe6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqZXfKrCEeOf1O9AMTn6UA" label="0..1" max="1"/>
+      <type xmi:id="_sqZXfarCEeOf1O9AMTn6UA" name="Payment">
+        <modelElement href="QuasarPaymentApp.uml#_saq5YKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqSCsKrCEeOf1O9AMTn6UA" comments="_sqQ0karCEeOf1O9AMTn6UA" targetConnectionVisual="_sqQ0kqrCEeOf1O9AMTn6UA" name="CardMode" generalizations="_sqQ0kKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sZnwgKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqSCsarCEeOf1O9AMTn6UA" position="-1467.0,-981.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_sqSCsqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sZoXkKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqSCs6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqSCtKrCEeOf1O9AMTn6UA" name="cardNumber">
+      <modelElement href="QuasarPaymentApp.uml#_sgXRsqrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqSCtarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgX4wKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqSCtqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqSCt6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqSCuKrCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqSCuarCEeOf1O9AMTn6UA" name="transactionID">
+      <modelElement href="QuasarPaymentApp.uml#_sgX4warCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqSCuqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgX4wqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqSCu6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqSCvKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqSCvarCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqSCvqrCEeOf1O9AMTn6UA" name="cardExpiryDate">
+      <modelElement href="QuasarPaymentApp.uml#_sgX4w6rCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqSCv6rCEeOf1O9AMTn6UA" name="Temporal">
+        <modelElement href="QuasarPaymentApp.uml#_sgX4xKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqSCwKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqSCwarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqSCwqrCEeOf1O9AMTn6UA" name="Date">
+        <modelElement href="QuasarPaymentApp.uml#_scKHIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sqSCw6rCEeOf1O9AMTn6UA" name="setCardNumber">
+      <modelElement href="QuasarPaymentApp.uml#_sZo-oKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqSCxKrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZo-oqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqSCxarCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqSCxqrCEeOf1O9AMTn6UA" name="cardNumber">
+        <modelElement href="QuasarPaymentApp.uml#_sZo-oarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqSCx6rCEeOf1O9AMTn6UA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sqSCyKrCEeOf1O9AMTn6UA" name="setTransactionID">
+      <modelElement href="QuasarPaymentApp.uml#_sZo-o6rCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqSCyarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZo-parCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqSCyqrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqSCy6rCEeOf1O9AMTn6UA" name="transactionID">
+        <modelElement href="QuasarPaymentApp.uml#_sZo-pKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqSCzKrCEeOf1O9AMTn6UA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqO_YKrCEeOf1O9AMTn6UA" comments="_sqNxQarCEeOf1O9AMTn6UA" targetConnectionVisual="_sqOYUKrCEeOf1O9AMTn6UA" name="DDMode" generalizations="_sqNxQKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sZyvpKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqO_YarCEeOf1O9AMTn6UA" position="-1047.0,-981.0" size="250.0,198.0"/>
+    <stereotypes xmi:id="_sqO_YqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sZzWsKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqO_Y6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqO_ZKrCEeOf1O9AMTn6UA" name="DDNumber">
+      <modelElement href="QuasarPaymentApp.uml#_sgfNgKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqO_ZarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgfNgarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqO_ZqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqO_Z6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqO_aKrCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqO_aarCEeOf1O9AMTn6UA" name="bankName">
+      <modelElement href="QuasarPaymentApp.uml#_sgfNgqrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqO_aqrCEeOf1O9AMTn6UA" name="Column">
+        <modelElement href="QuasarPaymentApp.uml#_sgi34KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqO_a6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqO_bKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqO_barCEeOf1O9AMTn6UA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqO_bqrCEeOf1O9AMTn6UA" name="issueDate">
+      <modelElement href="QuasarPaymentApp.uml#_sgje8KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqO_b6rCEeOf1O9AMTn6UA" name="Temporal">
+        <modelElement href="QuasarPaymentApp.uml#_sgje8arCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqO_cKrCEeOf1O9AMTn6UA" name="Column">
+        <modelElement href="QuasarPaymentApp.uml#_sgmiQKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqO_carCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqO_cqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqO_c6rCEeOf1O9AMTn6UA" name="Date">
+        <modelElement href="QuasarPaymentApp.uml#_scKHIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqO_dKrCEeOf1O9AMTn6UA" name="ddExpiryDate">
+      <modelElement href="QuasarPaymentApp.uml#_sgnJUKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqO_darCEeOf1O9AMTn6UA" name="Temporal">
+        <modelElement href="QuasarPaymentApp.uml#_sgnJUarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqO_dqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqO_d6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqO_eKrCEeOf1O9AMTn6UA" name="Date">
+        <modelElement href="QuasarPaymentApp.uml#_scKHIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqLVAKrCEeOf1O9AMTn6UA" comments="_sqKG4KrCEeOf1O9AMTn6UA" targetConnectionVisual="_sqKG4arCEeOf1O9AMTn6UA" name="CashMode" generalizations="_sqKG4qrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sZqMwKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqLVAarCEeOf1O9AMTn6UA" position="-748.0,-980.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_sqLVAqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sZqz0KrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqLVA6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqLVBKrCEeOf1O9AMTn6UA" name="cashAmount">
+      <modelElement href="QuasarPaymentApp.uml#_sgYf0KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqLVBarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgYf0arCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqLVBqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqLVB6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqLVCKrCEeOf1O9AMTn6UA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqLVCarCEeOf1O9AMTn6UA" defaultValue="new HashMap&lt;Note, Integer>()" name="cashDetail">
+      <modelElement href="QuasarPaymentApp.uml#_sgYf0qrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqLVCqrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgZG4arCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqLVC6rCEeOf1O9AMTn6UA" name="Annotations">
+        <modelElement href="QuasarPaymentApp.uml#_sgZG4qrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqLVDKrCEeOf1O9AMTn6UA" label="-"/>
+      <cardinality xmi:id="_sqLVDarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqLVDqrCEeOf1O9AMTn6UA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sqLVD6rCEeOf1O9AMTn6UA" name="setCashAmount">
+      <modelElement href="QuasarPaymentApp.uml#_sZqz0arCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqLVEKrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZqz06rCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqLVEarCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqLVEqrCEeOf1O9AMTn6UA" name="cashAmount">
+        <modelElement href="QuasarPaymentApp.uml#_sZqz0qrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqLVE6rCEeOf1O9AMTn6UA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sqLVFKrCEeOf1O9AMTn6UA" name="getCashDetail">
+      <modelElement href="QuasarPaymentApp.uml#_sZra4KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqLVFarCEeOf1O9AMTn6UA" name="Generics">
+        <modelElement href="QuasarPaymentApp.uml#_sZueMKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqLVFqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZueMarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqLVF6rCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqLVGKrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sfw0wKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqLVGarCEeOf1O9AMTn6UA" name="Map">
+          <modelElement href="QuasarPaymentApp.uml#_scmMAarCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqLVGqrCEeOf1O9AMTn6UA" name="setCashDetail">
+      <modelElement href="QuasarPaymentApp.uml#_sfw0warCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqLVG6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sfxb0KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqLVHKrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqLVHarCEeOf1O9AMTn6UA" name="cashDetail">
+        <modelElement href="QuasarPaymentApp.uml#_sfw0wqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqLVHqrCEeOf1O9AMTn6UA" name="Map">
+          <modelElement href="QuasarPaymentApp.uml#_scmMAarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqUe8KrCEeOf1O9AMTn6UA" comments="_sqT34arCEeOf1O9AMTn6UA" targetConnectionVisual="_sqT34qrCEeOf1O9AMTn6UA" name="OnlineMode" generalizations="_sqT34KrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sZ_j8KrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqUe8arCEeOf1O9AMTn6UA" position="-244.0,-986.0" size="282.0,209.0"/>
+    <stereotypes xmi:id="_sqUe8qrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sZ_j8arCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqUe86rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqUe9KrCEeOf1O9AMTn6UA" name="trasactionID">
+      <modelElement href="QuasarPaymentApp.uml#_sgsB0KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqUe9arCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgsB0arCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqUe9qrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqUe96rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqUe-KrCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqUe-arCEeOf1O9AMTn6UA" name="recieptNumber">
+      <modelElement href="QuasarPaymentApp.uml#_sgsB0qrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqUe-qrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgsB06rCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqUe-6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqUe_KrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqUe_arCEeOf1O9AMTn6UA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqbzsKrCEeOf1O9AMTn6UA" comments="_sqbMoKrCEeOf1O9AMTn6UA" targetConnectionVisual="_sqbMoarCEeOf1O9AMTn6UA" name="ChequeMode" generalizations="_sqalkKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sZvsUKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqbzsarCEeOf1O9AMTn6UA" position="79.0,-996.0" size="352.0,219.0"/>
+    <stereotypes xmi:id="_sqbzsqrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sZwTYKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqbzs6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqbztKrCEeOf1O9AMTn6UA" name="chequeNumber">
+      <modelElement href="QuasarPaymentApp.uml#_sgZt8KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqbztarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgZt8arCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqbztqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqbzt6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqbzuKrCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqbzuarCEeOf1O9AMTn6UA" name="bankName">
+      <modelElement href="QuasarPaymentApp.uml#_sgZt8qrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqbzuqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgZt86rCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqbzu6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqbzvKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqbzvarCEeOf1O9AMTn6UA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqbzvqrCEeOf1O9AMTn6UA" name="issueDate">
+      <modelElement href="QuasarPaymentApp.uml#_sgZt9KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqbzv6rCEeOf1O9AMTn6UA" name="Temporal">
+        <modelElement href="QuasarPaymentApp.uml#_sgaVAKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqbzwKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqbzwarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqbzwqrCEeOf1O9AMTn6UA" name="Date">
+        <modelElement href="QuasarPaymentApp.uml#_scKHIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqbzw6rCEeOf1O9AMTn6UA" name="expriyDate">
+      <modelElement href="QuasarPaymentApp.uml#_sgaVAarCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqbzxKrCEeOf1O9AMTn6UA" name="Temporal">
+        <modelElement href="QuasarPaymentApp.uml#_sga8EKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqbzxarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqbzxqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqbzx6rCEeOf1O9AMTn6UA" name="Date">
+        <modelElement href="QuasarPaymentApp.uml#_scKHIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqbzyKrCEeOf1O9AMTn6UA" name="chequeStatus">
+      <modelElement href="QuasarPaymentApp.uml#_sga8EarCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqbzyarCEeOf1O9AMTn6UA" name="EnumerationStyleMapping">
+        <modelElement href="QuasarPaymentApp.uml#_sgemcKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqbzyqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqbzy6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqbzzKrCEeOf1O9AMTn6UA" name="ChequeStatus">
+        <modelElement href="QuasarPaymentApp.uml#_sZyIkKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sqbzzarCEeOf1O9AMTn6UA" name="setBankName">
+      <modelElement href="QuasarPaymentApp.uml#_sZw6cKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqbzzqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZw6cqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqbzz6rCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqbz0KrCEeOf1O9AMTn6UA" name="bankName">
+        <modelElement href="QuasarPaymentApp.uml#_sZw6carCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqbz0arCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_sqWUIKrCEeOf1O9AMTn6UA" name="Note">
+    <modelElement href="QuasarPaymentApp.uml#_sZ0k0KrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqWUIarCEeOf1O9AMTn6UA" position="-2668.0,-978.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sqWUIqrCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqWUI6rCEeOf1O9AMTn6UA" name="noteValue">
+      <modelElement href="QuasarPaymentApp.uml#_sgrawKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqWUJKrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgrawarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqWUJarCEeOf1O9AMTn6UA" label="~"/>
+      <cardinality xmi:id="_sqWUJqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqWUJ6rCEeOf1O9AMTn6UA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sqWUKKrCEeOf1O9AMTn6UA" name="Note">
+      <modelElement href="QuasarPaymentApp.uml#_sZ5dUKrCEeOf1O9AMTn6UA"/>
+      <keywords xmi:id="_sqWUKarCEeOf1O9AMTn6UA" keyword="create"/>
+      <visibility xmi:id="_sqWUKqrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_sqWUK6rCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ5dVKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWULKrCEeOf1O9AMTn6UA" name="Note">
+          <modelElement href="QuasarPaymentApp.uml#_sZ0k0KrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sqWULarCEeOf1O9AMTn6UA" name="noteValue">
+        <modelElement href="QuasarPaymentApp.uml#_sZ5dUarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWULqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sqWUL6rCEeOf1O9AMTn6UA" name="getNoteValue">
+      <modelElement href="QuasarPaymentApp.uml#_sZ5dVarCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUMKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUMarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ6EYKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUMqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUM6rCEeOf1O9AMTn6UA" name="getFIVEHUNDRED" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ6EYarCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUNKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUNarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ6EYqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUNqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUN6rCEeOf1O9AMTn6UA" name="getTHOUSAND" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ6EY6rCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUOKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUOarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ6EZKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUOqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUO6rCEeOf1O9AMTn6UA" name="getHUNDRED" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ6rcKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUPKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUParCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ6rcarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUPqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUP6rCEeOf1O9AMTn6UA" name="getFIFTY" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ6rcqrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUQKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUQarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ6rc6rCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUQqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUQ6rCEeOf1O9AMTn6UA" name="getTWENTY" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ6rdKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWURKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWURarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ6rdarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWURqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUR6rCEeOf1O9AMTn6UA" name="getTEN" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ7SgKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUSKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUSarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ7SgarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUSqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUS6rCEeOf1O9AMTn6UA" name="getFIVE" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ7SgqrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUTKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUTarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ7Sg6rCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUTqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUT6rCEeOf1O9AMTn6UA" name="getTWO" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ7ShKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUUKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUUarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ7SharCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUUqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqWUU6rCEeOf1O9AMTn6UA" name="getONE" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sZ75kKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqWUVKrCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqWUVarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sZ75karCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqWUVqrCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_sqWUV6rCEeOf1O9AMTn6UA" name="THOUSAND">
+      <modelElement href="QuasarPaymentApp.uml#_sZ0k0arCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqWUWKrCEeOf1O9AMTn6UA" name="FIVEHUNDRED">
+      <modelElement href="QuasarPaymentApp.uml#_sZ1L4arCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqWUWarCEeOf1O9AMTn6UA" name="HUNDRED">
+      <modelElement href="QuasarPaymentApp.uml#_sZ1L46rCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqWUWqrCEeOf1O9AMTn6UA" name="FIFTY">
+      <modelElement href="QuasarPaymentApp.uml#_sZ1L5arCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqWUW6rCEeOf1O9AMTn6UA" name="TWENTY">
+      <modelElement href="QuasarPaymentApp.uml#_sZ1L56rCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqWUXKrCEeOf1O9AMTn6UA" name="TEN">
+      <modelElement href="QuasarPaymentApp.uml#_sZ1L6arCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqWUXarCEeOf1O9AMTn6UA" name="FIVE">
+      <modelElement href="QuasarPaymentApp.uml#_sZ1L66rCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqWUXqrCEeOf1O9AMTn6UA" name="TWO">
+      <modelElement href="QuasarPaymentApp.uml#_sZ1y8arCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqWUX6rCEeOf1O9AMTn6UA" name="ONE">
+      <modelElement href="QuasarPaymentApp.uml#_sZ1y86rCEeOf1O9AMTn6UA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_sqQNgKrCEeOf1O9AMTn6UA" name="ChequeStatus">
+    <modelElement href="QuasarPaymentApp.uml#_sZyIkKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqQNgarCEeOf1O9AMTn6UA" position="-2344.0,-791.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_sqQNgqrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sZyvoKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqQNg6rCEeOf1O9AMTn6UA" label="+"/>
+    <literals xmi:id="_sqQNhKrCEeOf1O9AMTn6UA" name="CLEARED">
+      <modelElement href="QuasarPaymentApp.uml#_sZyvoarCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqQNharCEeOf1O9AMTn6UA" name="UNCLEARED">
+      <modelElement href="QuasarPaymentApp.uml#_sZyvoqrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sqQNhqrCEeOf1O9AMTn6UA" name="NOTSET">
+      <modelElement href="QuasarPaymentApp.uml#_sZyvo6rCEeOf1O9AMTn6UA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_sp8EcKrCEeOf1O9AMTn6UA" name="PaymentStatus">
+    <modelElement href="QuasarPaymentApp.uml#_saONcKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sp8EcarCEeOf1O9AMTn6UA" position="-2356.0,-600.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sp8EcqrCEeOf1O9AMTn6UA" label="+"/>
+    <literals xmi:id="_sp8Ec6rCEeOf1O9AMTn6UA" name="FULLPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saONcarCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EdKrCEeOf1O9AMTn6UA" name="REGISTRATIONPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saONcqrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EdarCEeOf1O9AMTn6UA" name="UNPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saONc6rCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EdqrCEeOf1O9AMTn6UA" name="PAID">
+      <modelElement href="QuasarPaymentApp.uml#_saONdKrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8Ed6rCEeOf1O9AMTn6UA" name="FIRSTPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saONdarCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EeKrCEeOf1O9AMTn6UA" name="SECONDPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0gKrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EearCEeOf1O9AMTn6UA" name="THIRDPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0garCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EeqrCEeOf1O9AMTn6UA" name="FOURTHPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0gqrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8Ee6rCEeOf1O9AMTn6UA" name="FIFTHPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0g6rCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EfKrCEeOf1O9AMTn6UA" name="SIXTHPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0hKrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EfarCEeOf1O9AMTn6UA" name="SEVENTHPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0harCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EfqrCEeOf1O9AMTn6UA" name="EIGHTHPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0hqrCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8Ef6rCEeOf1O9AMTn6UA" name="NINTHPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0h6rCEeOf1O9AMTn6UA"/>
+    </literals>
+    <literals xmi:id="_sp8EgKrCEeOf1O9AMTn6UA" name="TENTHPAID">
+      <modelElement href="QuasarPaymentApp.uml#_saO0iKrCEeOf1O9AMTn6UA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqpPEKrCEeOf1O9AMTn6UA" name="Student" associationsIn="_sqmy0KrCEeOf1O9AMTn6UA _sqF1cKrCEeOf1O9AMTn6UA" associationsOut="_sqF1gKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sahIYKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqpPEarCEeOf1O9AMTn6UA" position="-1971.0,-714.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_sqpPEqrCEeOf1O9AMTn6UA" name="Table">
+      <modelElement href="QuasarPaymentApp.uml#_sakLsKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_sqpPE6rCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sakywKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqpPFKrCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqpPFarCEeOf1O9AMTn6UA" name="studentId">
+      <modelElement href="QuasarPaymentApp.uml#_sg6rUKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPFqrCEeOf1O9AMTn6UA" name="PrimaryKey">
+        <modelElement href="QuasarPaymentApp.uml#_sg6rUarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqpPF6rCEeOf1O9AMTn6UA" name="GeneratedValueMapping">
+        <modelElement href="QuasarPaymentApp.uml#_sg6rUqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPGKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqpPGarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqpPGqrCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqpPG6rCEeOf1O9AMTn6UA" name="feeDetails">
+      <modelElement href="QuasarPaymentApp.uml#_sg7SYKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPHKrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg7SYarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqooAqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg7SYarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPHarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqpPHqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqpPH6rCEeOf1O9AMTn6UA" name="FeeDetails">
+        <modelElement href="QuasarPaymentApp.uml#_sZf0sKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqpPIKrCEeOf1O9AMTn6UA" defaultValue="new ArrayList&lt;Payment>()" name="paymentsList">
+      <modelElement href="QuasarPaymentApp.uml#_sg7SYqrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqpPIarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqpPIqrCEeOf1O9AMTn6UA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_sqpPI6rCEeOf1O9AMTn6UA" name="Payment">
+        <modelElement href="QuasarPaymentApp.uml#_saq5YKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqpPJKrCEeOf1O9AMTn6UA" name="name">
+      <modelElement href="QuasarPaymentApp.uml#_sg75cKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPJarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg75carCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPJqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqpPJ6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqpPKKrCEeOf1O9AMTn6UA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqpPKarCEeOf1O9AMTn6UA" defaultValue="PaymentStatus.UNPAID" name="paymentStatus">
+      <modelElement href="QuasarPaymentApp.uml#_sg75cqrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPKqrCEeOf1O9AMTn6UA" name="EnumerationStyleMapping">
+        <modelElement href="QuasarPaymentApp.uml#_sg_j0KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPK6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqpPLKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqpPLarCEeOf1O9AMTn6UA" name="PaymentStatus">
+        <modelElement href="QuasarPaymentApp.uml#_saONcKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqpPLqrCEeOf1O9AMTn6UA" name="contactNumber">
+      <modelElement href="QuasarPaymentApp.uml#_shAK4KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPL6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_shAK4arCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPMKrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqpPMarCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqpPMqrCEeOf1O9AMTn6UA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqpPM6rCEeOf1O9AMTn6UA" defaultValue="&quot;&quot;" name="courseName">
+      <modelElement href="QuasarPaymentApp.uml#_shAK4qrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPNKrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_shAK5KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPNarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqpPNqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqpPN6rCEeOf1O9AMTn6UA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqpPOKrCEeOf1O9AMTn6UA" name="emailId">
+      <modelElement href="QuasarPaymentApp.uml#_shAK5arCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPOarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_shAx8KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPOqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqpPO6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqpPPKrCEeOf1O9AMTn6UA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sqpPParCEeOf1O9AMTn6UA" name="setName">
+      <modelElement href="QuasarPaymentApp.uml#_salZ0KrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPPqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_samA4arCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPP6rCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqpPQKrCEeOf1O9AMTn6UA" name="name">
+        <modelElement href="QuasarPaymentApp.uml#_samA4KrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqpPQarCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sqpPQqrCEeOf1O9AMTn6UA" name="setEmailId">
+      <modelElement href="QuasarPaymentApp.uml#_samA4qrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqpPQ6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_samA5KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqpPRKrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqpPRarCEeOf1O9AMTn6UA" name="emailId">
+        <modelElement href="QuasarPaymentApp.uml#_samA46rCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqpPRqrCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sp3L8KrCEeOf1O9AMTn6UA" name="FeeDetails" associationsOut="_sqmy0KrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_sZf0sKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sp3L8arCEeOf1O9AMTn6UA" position="-1233.0,-552.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_sp3L8qrCEeOf1O9AMTn6UA" name="JPA1StyledElement">
+      <modelElement href="QuasarPaymentApp.uml#_sZhC0KrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_sp3L86rCEeOf1O9AMTn6UA" name="PersistentPart">
+      <modelElement href="QuasarPaymentApp.uml#_sZnJcKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sp3L9KrCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sp3L9arCEeOf1O9AMTn6UA" name="courseFees">
+      <modelElement href="QuasarPaymentApp.uml#_sgWDkKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3L9qrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgWDkarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3L96rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sp3L-KrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sp3L-arCEeOf1O9AMTn6UA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sp3L-qrCEeOf1O9AMTn6UA" name="discountAvailable">
+      <modelElement href="QuasarPaymentApp.uml#_sgWDkqrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3L-6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgWqoKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3L_KrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sp3L_arCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sp3L_qrCEeOf1O9AMTn6UA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sp3L_6rCEeOf1O9AMTn6UA" name="serviceTax">
+      <modelElement href="QuasarPaymentApp.uml#_sgWqoarCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3MAKrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgWqoqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3MAarCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sp3MAqrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sp3MA6rCEeOf1O9AMTn6UA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sp3MBKrCEeOf1O9AMTn6UA" name="fine">
+      <modelElement href="QuasarPaymentApp.uml#_sgWqo6rCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3MBarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgWqpKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3MBqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sp3MB6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sp3MCKrCEeOf1O9AMTn6UA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sp3MCarCEeOf1O9AMTn6UA" name="totalFee">
+      <modelElement href="QuasarPaymentApp.uml#_sgWqparCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3MCqrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sgWqpqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3MC6rCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sp3MDKrCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sp3MDarCEeOf1O9AMTn6UA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sp3MDqrCEeOf1O9AMTn6UA" name="setCourseFees">
+      <modelElement href="QuasarPaymentApp.uml#_sZhp4arCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3MD6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZiQ8KrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3MEKrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sp3MEarCEeOf1O9AMTn6UA" name="courseFees">
+        <modelElement href="QuasarPaymentApp.uml#_sZhp4qrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sp3MEqrCEeOf1O9AMTn6UA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sp3ME6rCEeOf1O9AMTn6UA" name="setDiscountAvailable">
+      <modelElement href="QuasarPaymentApp.uml#_sZiQ8arCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3MFKrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZiQ86rCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3MFarCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sp3MFqrCEeOf1O9AMTn6UA" name="discountAvailable">
+        <modelElement href="QuasarPaymentApp.uml#_sZiQ8qrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sp3MF6rCEeOf1O9AMTn6UA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sp3MGKrCEeOf1O9AMTn6UA" name="setServiceTax">
+      <modelElement href="QuasarPaymentApp.uml#_sZi4AKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3MGarCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZi4AqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3MGqrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sp3MG6rCEeOf1O9AMTn6UA" name="serviceTax">
+        <modelElement href="QuasarPaymentApp.uml#_sZi4AarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sp3MHKrCEeOf1O9AMTn6UA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sp3MHarCEeOf1O9AMTn6UA" name="setFine">
+      <modelElement href="QuasarPaymentApp.uml#_sZi4A6rCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3MHqrCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZi4BarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3MH6rCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sp3MIKrCEeOf1O9AMTn6UA" name="fine">
+        <modelElement href="QuasarPaymentApp.uml#_sZi4BKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sp3MIarCEeOf1O9AMTn6UA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sp3MIqrCEeOf1O9AMTn6UA" name="setTotalFee">
+      <modelElement href="QuasarPaymentApp.uml#_sZjfEKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sp3MI6rCEeOf1O9AMTn6UA" name="StyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sZjfEarCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sp3MJKrCEeOf1O9AMTn6UA" label="-"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_squHkKrCEeOf1O9AMTn6UA" name="MainClass">
+    <modelElement href="QuasarPaymentApp.uml#_saPbkarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_squHkarCEeOf1O9AMTn6UA" position="-2104.0,943.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_squHkqrCEeOf1O9AMTn6UA" label="+"/>
+    <operations xmi:id="_squHk6rCEeOf1O9AMTn6UA" name="main" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_saQCoKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHlKrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_squHlarCEeOf1O9AMTn6UA" name="args">
+        <modelElement href="QuasarPaymentApp.uml#_saQCoarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHlqrCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHl6rCEeOf1O9AMTn6UA" name="kachra">
+      <modelElement href="QuasarPaymentApp.uml#_saR30KrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHmKrCEeOf1O9AMTn6UA" label="+"/>
+    </operations>
+    <operations xmi:id="_squHmarCEeOf1O9AMTn6UA" name="verifyEmailId" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_saR30arCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHmqrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_squHm6rCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_saSe4KrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHnKrCEeOf1O9AMTn6UA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_squHnarCEeOf1O9AMTn6UA" name="email">
+        <modelElement href="QuasarPaymentApp.uml#_saR30qrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHnqrCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHn6rCEeOf1O9AMTn6UA" name="checkFeeDetails" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sf_eQarCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHoKrCEeOf1O9AMTn6UA" label="-"/>
+      <parameters xmi:id="_squHoarCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sf_eQqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHoqrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHo6rCEeOf1O9AMTn6UA" name="checkPaymentMode" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgAFUKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHpKrCEeOf1O9AMTn6UA" label="-"/>
+      <parameters xmi:id="_squHparCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgAFUarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHpqrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHp6rCEeOf1O9AMTn6UA" name="printReciept" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgAFUqrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHqKrCEeOf1O9AMTn6UA" label="-"/>
+      <parameters xmi:id="_squHqarCEeOf1O9AMTn6UA" name="session">
+        <modelElement href="QuasarPaymentApp.uml#_sgAsYKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHqqrCEeOf1O9AMTn6UA" name="Session">
+          <modelElement href="QuasarPaymentApp.uml#_seiFsarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_squHq6rCEeOf1O9AMTn6UA" name="email">
+        <modelElement href="QuasarPaymentApp.uml#_sgAsYarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHrKrCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHrarCEeOf1O9AMTn6UA" name="obtainPaymentMode" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgAsYqrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHrqrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_squHr6rCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sgBTcarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHsKrCEeOf1O9AMTn6UA" name="PaymentMode">
+          <modelElement href="QuasarPaymentApp.uml#_saALAKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_squHsarCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgBTcKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHsqrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHs6rCEeOf1O9AMTn6UA" name="createRegistrationPaymentForNewStudent" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgBTcqrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHtKrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_squHtarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sgBTdKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHtqrCEeOf1O9AMTn6UA" name="Payment">
+          <modelElement href="QuasarPaymentApp.uml#_saq5YKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_squHt6rCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgBTc6rCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHuKrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHuarCEeOf1O9AMTn6UA" name="obtainPaymentType" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgB6gKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHuqrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_squHu6rCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sgB6gqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHvKrCEeOf1O9AMTn6UA" name="Payment">
+          <modelElement href="QuasarPaymentApp.uml#_saq5YKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_squHvarCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgB6garCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHvqrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHv6rCEeOf1O9AMTn6UA" name="obtaineFeeDetails" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgChkKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHwKrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_squHwarCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sgChkqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHwqrCEeOf1O9AMTn6UA" name="FeeDetails">
+          <modelElement href="QuasarPaymentApp.uml#_sZf0sKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_squHw6rCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgChkarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHxKrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHxarCEeOf1O9AMTn6UA" name="obtainPaymentDetails" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgDIoKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHxqrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_squHx6rCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sgDIoqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHyKrCEeOf1O9AMTn6UA" name="PaymentDetails">
+          <modelElement href="QuasarPaymentApp.uml#_saYlgKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_squHyarCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgDIoarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHyqrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squHy6rCEeOf1O9AMTn6UA" name="obtainBasicDetails" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgDIo6rCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squHzKrCEeOf1O9AMTn6UA" label="-"/>
+      <parameters xmi:id="_squHzarCEeOf1O9AMTn6UA" name="student">
+        <modelElement href="QuasarPaymentApp.uml#_sgDIpKrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squHzqrCEeOf1O9AMTn6UA" name="Student">
+          <modelElement href="QuasarPaymentApp.uml#_sahIYKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_squHz6rCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgDIparCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squH0KrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squH0arCEeOf1O9AMTn6UA" name="obtainFullFeePayment" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgDvsKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_squH0qrCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_squH06rCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sgDvsqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squH1KrCEeOf1O9AMTn6UA" name="FullFeePayment">
+          <modelElement href="QuasarPaymentApp.uml#_saBZIKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_squH1arCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgDvsarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squH1qrCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_squH16rCEeOf1O9AMTn6UA" name="obtainInstallmentPayments" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_sgEWwKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_squH2KrCEeOf1O9AMTn6UA" name="Generics">
+        <modelElement href="QuasarPaymentApp.uml#_sgIBIKrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_squH2arCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_squH2qrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sgIBIarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squH26rCEeOf1O9AMTn6UA" name="ArrayList">
+          <modelElement href="QuasarPaymentApp.uml#_seQ_8arCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_squH3KrCEeOf1O9AMTn6UA" name="br">
+        <modelElement href="QuasarPaymentApp.uml#_sgEWwarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squH3arCEeOf1O9AMTn6UA" name="BufferedReader">
+          <modelElement href="QuasarPaymentApp.uml#_sd_TIarCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_squH3qrCEeOf1O9AMTn6UA" name="numberOfInstallment">
+        <modelElement href="QuasarPaymentApp.uml#_sgEWwqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squH36rCEeOf1O9AMTn6UA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_squH4KrCEeOf1O9AMTn6UA" name="st">
+        <modelElement href="QuasarPaymentApp.uml#_sgEWw6rCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_squH4arCEeOf1O9AMTn6UA" name="Student">
+          <modelElement href="QuasarPaymentApp.uml#_sahIYKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqzAEKrCEeOf1O9AMTn6UA" name="ParseException">
+    <modelElement href="QuasarPaymentApp.uml#_seKSQKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqzAEarCEeOf1O9AMTn6UA" position="-1251.0,790.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqzAEqrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_seNVkKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqzAE6rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqlksKrCEeOf1O9AMTn6UA" name="HibernateException">
+    <modelElement href="QuasarPaymentApp.uml#_sebYAKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqlksarCEeOf1O9AMTn6UA" position="-1493.0,715.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqlksqrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_seebUKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqlks6rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqdo4KrCEeOf1O9AMTn6UA" name="NameException">
+    <modelElement href="QuasarPaymentApp.uml#_sdDfAarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqdo4arCEeOf1O9AMTn6UA" position="-1727.0,756.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqdo4qrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_sdHJYKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqdo46rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqmLwKrCEeOf1O9AMTn6UA" name="MainClass2">
+    <modelElement href="QuasarPaymentApp.uml#_saM_UKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqmLwarCEeOf1O9AMTn6UA" position="-2018.0,782.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_sqmLwqrCEeOf1O9AMTn6UA" label="+"/>
+    <operations xmi:id="_sqmLw6rCEeOf1O9AMTn6UA" name="main" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_saM_UarCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqmLxKrCEeOf1O9AMTn6UA" label="+"/>
+      <parameters xmi:id="_sqmLxarCEeOf1O9AMTn6UA" name="args">
+        <modelElement href="QuasarPaymentApp.uml#_saM_UqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqmLxqrCEeOf1O9AMTn6UA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqTQ0KrCEeOf1O9AMTn6UA" name="InvalidNumberException">
+    <modelElement href="QuasarPaymentApp.uml#_scXigarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqTQ0arCEeOf1O9AMTn6UA" position="-2045.0,629.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqTQ0qrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_scbM4KrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqTQ06rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqNKMKrCEeOf1O9AMTn6UA" name="CashAmountException">
+    <modelElement href="QuasarPaymentApp.uml#_scznYarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqNKMarCEeOf1O9AMTn6UA" position="-1757.0,628.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqNKMqrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_sc3RwKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqNKM6rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqNKNKrCEeOf1O9AMTn6UA" name="CashDetailException">
+    <modelElement href="QuasarPaymentApp.uml#_sc3RwarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqNKNarCEeOf1O9AMTn6UA" position="-1483.0,571.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqNKNqrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_sc6VEKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqNKN6rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqCyIKrCEeOf1O9AMTn6UA" name="DateException">
+    <modelElement href="QuasarPaymentApp.uml#_seozYarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqCyIarCEeOf1O9AMTn6UA" position="-1723.0,365.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqCyIqrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_sesdwKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqCyI6rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sp7dYKrCEeOf1O9AMTn6UA" name="Exception">
+    <modelElement href="QuasarPaymentApp.uml#_sfr8QarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sp7dYarCEeOf1O9AMTn6UA" position="-1712.0,229.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sp7dYqrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_sfvmoKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sp7dY6rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqxx8KrCEeOf1O9AMTn6UA" name="NumberFormatException">
+    <modelElement href="QuasarPaymentApp.uml#_sf7z4KrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqxx8arCEeOf1O9AMTn6UA" position="-1229.0,529.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqxx8qrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_sf_eQKrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqxx86rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Z7KbsKrDEeOf1O9AMTn6UA" name="NewClass1">
+    <modelElement href="QuasarPaymentApp.uml#_Z7GxUKrDEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_Z7KbsarDEeOf1O9AMTn6UA" position="-1002.0,198.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_Z7KbsqrDEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqyZAKrCEeOf1O9AMTn6UA" name="PrinterException">
+    <modelElement href="QuasarPaymentApp.uml#_sd3-YarCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqyZAarCEeOf1O9AMTn6UA" position="-1222.0,654.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sqyZAqrCEeOf1O9AMTn6UA" name="Reference">
+      <modelElement href="QuasarPaymentApp.uml#_sd8P0KrCEeOf1O9AMTn6UA"/>
+    </stereotypes>
+    <visibility xmi:id="_sqyZA6rCEeOf1O9AMTn6UA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sqkWmarCEeOf1O9AMTn6UA" name="QuasarConnectionManager" associationsIn="_sqihYKrCEeOf1O9AMTn6UA" associationsOut="_sqihYKrCEeOf1O9AMTn6UA _sqkWkKrCEeOf1O9AMTn6UA">
+    <modelElement href="QuasarPaymentApp.uml#_saesIKrCEeOf1O9AMTn6UA"/>
+    <visualProperties xmi:id="_sqkWmqrCEeOf1O9AMTn6UA" position="-2399.0,82.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sqkWm6rCEeOf1O9AMTn6UA" label="+"/>
+    <attributes xmi:id="_sqkWnKrCEeOf1O9AMTn6UA" name="quasarConnectionManager" staticAttribute="true">
+      <modelElement href="QuasarPaymentApp.uml#_sg5dMKrCEeOf1O9AMTn6UA"/>
+      <stereotypes xmi:id="_sqkWnarCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg6EQqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sqjvhKrCEeOf1O9AMTn6UA" name="LegacyStyledElement">
+        <modelElement href="QuasarPaymentApp.uml#_sg6EQqrCEeOf1O9AMTn6UA"/>
+      </stereotypes>
+      <visibility xmi:id="_sqkWnqrCEeOf1O9AMTn6UA" label="-"/>
+      <cardinality xmi:id="_sqkWn6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqkWoKrCEeOf1O9AMTn6UA" name="QuasarConnectionManager">
+        <modelElement href="QuasarPaymentApp.uml#_saesIKrCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sqkWoarCEeOf1O9AMTn6UA" name="session">
+      <modelElement href="QuasarPaymentApp.uml#_sg6EQ6rCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqkWoqrCEeOf1O9AMTn6UA" label="+"/>
+      <cardinality xmi:id="_sqkWo6rCEeOf1O9AMTn6UA" label="1" max="1" min="1"/>
+      <type xmi:id="_sqkWpKrCEeOf1O9AMTn6UA" name="Session">
+        <modelElement href="QuasarPaymentApp.uml#_seiFsarCEeOf1O9AMTn6UA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sqkWparCEeOf1O9AMTn6UA" name="QuasarConnectionManager">
+      <modelElement href="QuasarPaymentApp.uml#_safTMKrCEeOf1O9AMTn6UA"/>
+      <keywords xmi:id="_sqkWpqrCEeOf1O9AMTn6UA" keyword="create"/>
+      <visibility xmi:id="_sqkWp6rCEeOf1O9AMTn6UA" label="-"/>
+      <outParameters xmi:id="_sqkWqKrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_safTM6rCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqkWqarCEeOf1O9AMTn6UA" name="QuasarConnectionManager">
+          <modelElement href="QuasarPaymentApp.uml#_saesIKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqkWqqrCEeOf1O9AMTn6UA" name="getInstance" staticOperation="true">
+      <modelElement href="QuasarPaymentApp.uml#_safTNKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqkWq6rCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqkWrKrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sfIioarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqkWrarCEeOf1O9AMTn6UA" name="QuasarConnectionManager">
+          <modelElement href="QuasarPaymentApp.uml#_saesIKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqkWrqrCEeOf1O9AMTn6UA" name="commitSession">
+      <modelElement href="QuasarPaymentApp.uml#_saf6QKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqkWr6rCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqkWsKrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_saf6QarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqkWsarCEeOf1O9AMTn6UA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sqkWsqrCEeOf1O9AMTn6UA" name="save">
+      <modelElement href="QuasarPaymentApp.uml#_sgNgsKrCEeOf1O9AMTn6UA"/>
+      <visibility xmi:id="_sqkWs6rCEeOf1O9AMTn6UA" label="+"/>
+      <outParameters xmi:id="_sqkWtKrCEeOf1O9AMTn6UA">
+        <modelElement href="QuasarPaymentApp.uml#_sgNgsqrCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqkWtarCEeOf1O9AMTn6UA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sqkWtqrCEeOf1O9AMTn6UA" name="ob">
+        <modelElement href="QuasarPaymentApp.uml#_sgNgsarCEeOf1O9AMTn6UA"/>
+        <type xmi:id="_sqkWt6rCEeOf1O9AMTn6UA" name="Object">
+          <modelElement href="QuasarPaymentApp.uml#_sgJ2UKrCEeOf1O9AMTn6UA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
